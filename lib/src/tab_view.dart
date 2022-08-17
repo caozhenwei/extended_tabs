@@ -317,7 +317,7 @@ class _ExtendedTabBarViewState extends State<ExtendedTabBarView>
 
   bool _handleGlowNotification(OverscrollIndicatorNotification notification) {
     if (notification.depth == 0 && !_pageController.isSelf) {
-      notification.disallowIndicator();
+      //notification.disallowIndicator();
       return true;
     }
     return false;
